@@ -16,19 +16,32 @@
     <h2>Runtime</h2>
 
     <ul class="list-unstyled">
-        <li><input type="checkbox" name="runtime-mts-lts"/> Make sure either the latest medium-term support (MTS) or long term support (LTS) is in use.</li>
-        <li><input type="checkbox" name="runtime-redeploy"/> Redeploy to get the latest patches (make sure base image is up to date)</li>
-        <li><input type="checkbox" name="runtime-dev-env"/> Runtime development runtime is the same as production (with the use of a pinned version - i.e., .npmrc / .sdkmanrc file)</li>
+        <li><input type="checkbox" name="runtime-mts-lts"/> Make sure either the latest medium-term support (MTS) or
+            long term support (LTS) is in use.
+        </li>
+        <li><input type="checkbox" name="runtime-redeploy"/> Redeploy to get the latest patches (make sure base image is
+            up to date)
+        </li>
+        <li><input type="checkbox" name="runtime-dev-env"/> Runtime development runtime is the same as production (with
+            the use of a pinned version - i.e., .npmrc / .sdkmanrc file)
+        </li>
         <li><input type="checkbox" name="runtime-dockerfile"/> Dockerfile is reviewed</li>
     </ul>
 
     <h2>Development</h2>
     <ul class="list-unstyled">
-        <li class="active-dev"><input type="checkbox" name="development-run-locally"/> Run the app locally making sure it is easy to do following the readme</li>
+        <li class="active-dev"><input type="checkbox" name="development-run-locally"/> Run the app locally making sure
+            it is easy to do following the readme
+        </li>
         <li class="active-dev"><input type="checkbox" name="development-sonar"/> Fix Sonar Quality Gate Issues</li>
-        <li class="maintain"><input type="checkbox" name="development-upgrade-build-tool"/> Upgrading build tool (e.g. Gradle) - Patch only (unless out of support)</li>
-        <li class="maintain"><input type="checkbox" name="development-remove-feature-flags"/> Remove old feature flags</li>
-        <li><input type="checkbox" name="development-dependency-upgrade"/> Make sure dependencies are up to date - Patch only (unless out of support)</li>
+        <li class="maintain"><input type="checkbox" name="development-upgrade-build-tool"/> Upgrading build tool (e.g.
+            Gradle) - Patch only (unless out of support)
+        </li>
+        <li class="maintain"><input type="checkbox" name="development-remove-feature-flags"/> Remove old feature flags
+        </li>
+        <li><input type="checkbox" name="development-dependency-upgrade"/> Make sure dependencies are up to date - Patch
+            only (unless out of support)
+        </li>
     </ul>
 
     <h2>Observability</h2>
@@ -89,6 +102,11 @@
         <li><input type="checkbox" name="upgrade-libraries-major"/> Major upgrade of libraries</li>
     </ol>
 </div>
+
+<footer class="footer pb-2">
+    Created by <a href="https://github.com/HarryEMartland" target="_blank">@HarryEMartland</a>, <a href="https://medium.com/HarryEMartland" target="_blank">Medium</a>, Fork on <a href="https://github.com/servicemot/servicemot.github.io" target="_blank">GitHub</a>
+</footer>
+
 <script type="application/javascript" src="app.js"></script>
 </body>
 </html>

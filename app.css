@@ -15,3 +15,8 @@ input[type='checkbox']{
 .active-dev {
   color: green;
 }
+
+.footer {
+    text-align: center;
+    color: darkgrey;
+}
